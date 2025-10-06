@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ADONIS SMARTNET — Intelligent Networking, Seamless Connectivity</title>
+  <meta name="description" content="ADONIS SMARTNET provides managed networks, cloud connectivity and network security with intelligent monitoring." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="ADONIS SMARTNET — Intelligent Networking" />
+  <meta property="og:description" content="Managed Networks • Cloud Connectivity • Network Security" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container nav-inner">
+      <a class="logo" href="#home" aria-label="ADONIS SMARTNET home">
+        <!-- Inline SVG logomark -->
+        <svg width="42" height="42" viewBox="0 0 64 64" aria-hidden="true">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0%" stop-color="#00E5FF" />
+              <stop offset="100%" stop-color="#3AF" />
+            </linearGradient>
+          </defs>
+          <rect x="6" y="6" width="52" height="52" rx="10" fill="#071430" />
+          <g transform="translate(12,12)">
+            <path d="M4 18 L12 6 L20 18" fill="none" stroke="url(#g1)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+            <circle cx="8" cy="22" r="2.6" fill="url(#g1)" />
+            <circle cx="20" cy="22" r="2.6" fill="#0af" />
+          </g>
+        </svg>
+        <span class="brand">ADONIS <strong>SMARTNET</strong></span>
+      </a>
+
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="siteNav" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#solutions">Solutions</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="btn ghost" aria-pressed="false">Dark</button>
+        <a class="btn primary" href="#contact">Get a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero" role="region" aria-label="Hero">
+      <div class="hero-grid container">
+        <div class="hero-content">
+          <h1>ADONIS SMARTNET — <span class="accent">Intelligent Networking</span>, Seamless Connectivity</h1>
+          <p class="lead">Managed Networks(fixing Slow Networks) • Cloud Connectivity • Network Security — built for scale, visibility and resilience.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#contact">Get a Quote</a>
+            <a class="btn outline" href="#solutions">Our Solutions</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Canvas 3D node network. CSS fallback shown if not supported. -->
+          <canvas id="nodesCanvas"></canvas>
+          <div id="nodesFallback" class="nodes-fallback" hidden>
+            <!-- Decorative SVG fallback -->
+            <svg viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet">
+              <defs>
+                <linearGradient id="f1" x1="0" x2="1"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#3AF"/></linearGradient>
+              </defs>
+              <g transform="translate(100,100)">
+                <circle r="60" fill="#071430"/>
+                <g stroke="url(#f1)" stroke-width="1.6" fill="none">
+                  <circle r="48"/>
+                  <circle r="36"/>
+                  <circle r="24"/>
+                  <path d="M-36 0 L 36 0"/>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTIONS -->
+    <section id="solutions" class="solutions container" role="region" aria-label="Solutions">
+      <h2>Our Solutions</h2>
+      <p class="sub">Robust, monitored and secure networking solutions designed for businesses.</p>
+      <div class="cards" role="list">
+        <article class="card" data-tilt role="listitem">
+          <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18M12 3v18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Managed Networks</h3>
+          <p>End-to-end management of your LAN/WAN with proactive monitoring and SLA-driven support.</p>
+          <a href="#contact" class="link">Learn more →</a>
+        </article>
+
+        <article class="card" data-tilt role="listitem">
+          <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18M5 20h14" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Cloud Connectivity</h3>
+          <p>Secure, high-speed connections to major cloud providers and private cloud solutions.</p>
+          <a href="#contact" class="link">Learn more →</a>
+        </article>
+
+        <article class="card" data-tilt role="listitem">
+          <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18M7 7l5 5 5-5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Network Security</h3>
+          <p>Threat detection, segmented networks and continuous compliance monitoring.</p>
+          <a href="#contact" class="link">Learn more →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="how container" role="region" aria-label="How it works">
+      <h2>How it works</h2>
+      <div class="timeline">
+        <div class="step">
+          <div class="num">1</div>
+          <h4>Audit</h4>
+          <p>We assess your current infrastructure, performance and risks.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h4>Deploy</h4>
+          <p>We design and deploy resilient networks using automation and validation tests.</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h4>Monitor</h4>
+          <p>24/7 monitoring, alerts and continuous improvement driven by telemetry.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASES CAROUSEL -->
+    <section class="cases container" aria-label="Case studies">
+      <h2>Case studies</h2>
+      <div class="carousel" id="caseCarousel">
+        <button class="carousel-control prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <article class="case"> <h3>Retail Migration</h3> <p>Cloud connectivity for 150+ stores; uptime improved to 99.99%.</p> </article>
+          <article class="case"> <h3>FinTech Secure Fabric</h3> <p>Network segmentation and zero-trust model for a scale-up fintech.</p> </article>
+          <article class="case"> <h3>Campus Upgrade</h3> <p>Managed Wi‑Fi and core upgrade across three campuses.</p> </article>
+        </div>
+        <button class="carousel-control next" aria-label="Next">›</button>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="team container" aria-label="Team">
+      <h2>Meet the team</h2>
+      <div class="people">
+        <figure class="person">
+          <div class="avatar" aria-hidden="true"> <!-- SVG placeholder -->
+            <svg viewBox="0 0 100 100"><circle cx="50" cy="30" r="18"/><rect x="20" y="54" width="60" height="28" rx="6"/></svg>
+          </div>
+          <figcaption>
+            <strong>Aisha Patel</strong>
+            <p class="role">Head of Solutions — Network Architect</p>
+          </figcaption>
+        </figure>
+
+        <figure class="person">
+          <div class="avatar" aria-hidden="true">
+            <svg viewBox="0 0 100 100"><circle cx="50" cy="30" r="18"/><rect x="20" y="54" width="60" height="28" rx="6"/></svg>
+          </div>
+          <figcaption>
+            <strong>Michael Okoye</strong>
+            <p class="role">Cloud & Security Lead</p>
+          </figcaption>
+        </figure>
+
+        <figure class="person">
+          <div class="avatar" aria-hidden="true">
+            <svg viewBox="0 0 100 100"><circle cx="50" cy="30" r="18"/><rect x="20" y="54" width="60" height="28" rx="6"/></svg>
+          </div>
+          <figcaption>
+            <strong>Grace Mburu</strong>
+            <p class="role">Operations & Monitoring</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact container" aria-label="Contact">
+      <h2>Contact & Quote</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-grid">
+          <label>Full name <input type="text" name="name" required /></label>
+          <label>Company <input type="text" name="company" required /></label>
+          <label>Email <input type="email" name="email" required /></label>
+          <label>Phone <input type="tel" name="phone" /></label>
+          <label>Service
+            <select name="service">
+              <option>Managed Networks</option>
+              <option>Cloud Connectivity</option>
+              <option>Network Security</option>
+            </select>
+          </label>
+          <label class="full">Message <textarea name="message" rows="4"></textarea></label>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send request</button>
+          <button type="reset" class="btn ghost">Reset</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> ADONIS SMARTNET — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Success modal (hidden) -->
+  <div id="successModal" class="modal" role="dialog" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <h3>Thanks — we received your request</h3>
+      <p>We'll get back to you within 1 business day. This is a demo success state (no server).</p>
+      <button class="btn primary" id="modalOkay">Okay</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
